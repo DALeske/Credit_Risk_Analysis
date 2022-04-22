@@ -16,15 +16,8 @@ The same dataset was used for all analyses. Data was cleaned and transformed int
 
 ## Results
 
-The following are a summary of the balanced accuracy scores, precision, and sensitivity (recall) for the six difference machine learning models:
-
-1. Naive:               Accuracy = 0.66   Precision = 0.01   Sensitivity = 0.67  Specificity = 0.65
-2. SMOTE:               Accuracy = 0.65   Precision = 0.01   Sensitivity = 0.61  Specificity = 0.68
-3. Cluster centroids:   Accuracy = 0.55   Precision = 0.01   Sensitivity = 0.69  Specificity = 0.42
-4. SMOTEENN:            Accuracy = 0.63   Precision = 0.01   Sensitivity = 0.68  Specificity = 0.57
-5. Random Forest:       Accuracy = 0.76   Precision = 0.03   Sensitivity = 0.64  Specificity = 0.88
-6. AdaBoost:            Accuracy = 0.69   Precision = 0.88   Sensitivity = 0.38  Specificity = 1.00
-
+The following are a summary of the balanced accuracy scores, precision, sensitivity (recall), and specificity for the six different machine learning models:
+ 
 | METHOD | ACCURACY | PRECISION | SENSITIVITY | SPECIFICITY |
 | :---: | :---: | :---: | :---: | :---: |
 | Naive | 0.66 | 0.01 | 0.67 | 0.65 |
