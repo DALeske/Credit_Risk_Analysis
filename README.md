@@ -25,6 +25,14 @@ The following are a summary of the balanced accuracy scores, precision, and sens
 5. Random Forest:       Accuracy = 0.76   Precision = 0.03   Sensitivity = 0.64  Specificity = 0.88
 6. AdaBoost:            Accuracy = 0.69   Precision = 0.88   Sensitivity = 0.38  Specificity = 1.00
 
+| METHOD | ACCURACY | PRECISION | SENSITIVITY | SPECIFICITY |
+| :---: | :---: | :---: | :---: | :---: |
+| Naive | 0.66 | 0.01 | 0.67 | 0.65 |
+| SMOTE | 0.65 | 0.01 | 0.61 | 0.68 |
+| Cluster centroids | 0.55 | 0.01 | 0.69 | 0.42 |
+| SMOTEENN | 0.63 | 0.01 | 0.68 | 0.57 |
+| Random forest | 0.76 | 0.03 | 0.64 | 0.88 |
+| AdaBoost | 0.69 | 0.88 | 0.38 | 1.00 |
 
 ## Summary
 Among all of the methods, the accuracy was reasonable for all models except for cluster centroids, the only pure under-sampling model. Precision was poor for all models with the exception of the AdaBoost model. All models had moderate sensitivity (recall) with the exception of the AdaBoost model, which had relatively poor sensitivity. 
