@@ -24,7 +24,7 @@ The following are a summary of the balanced accuracy scores, precision, sensitiv
 | SMOTE | 0.65 | 0.01 | 0.61 | 0.68 |
 | Cluster centroids | 0.55 | 0.01 | 0.69 | 0.42 |
 | SMOTEENN | 0.63 | 0.01 | 0.68 | 0.57 |
-| Random forest | 0.76 | 0.03 | 0.64 | 0.88 |
+| Random forest | 0.75 | 0.03 | 0.64 | 0.85 |
 | AdaBoost | 0.69 | 0.88 | 0.38 | 1.00 |
 
 ## Summary
